@@ -1,5 +1,5 @@
 # TMSDNet
-Code of TMSDNet
+Code of TMSDNet.
 
 ## Create an environment ##
 Directly run:
@@ -9,10 +9,10 @@ conda activate tmsdnet
 ```
 
 ## Dataset ##
-Download the [Rendered Images](http://cvgl.stanford.edu/data2/ShapeNetRendering.tgz) and [Voxelization (32)](http://cvgl.stanford.edu/data2/ShapeNetVox32.tgz) and decompress them into `$SHAPENET_IMAGE` and `$SHAPENET_VOXEL`
+Download the [Rendered Images](http://cvgl.stanford.edu/data2/ShapeNetRendering.tgz) and [Voxelization (32)](http://cvgl.stanford.edu/data2/ShapeNetVox32.tgz) and decompress them into `$SHAPENET_IMAGE` and `$SHAPENET_VOXEL`.
 
 ## Training ##
-Here is a training code example
+Here is a training code example of TMSDNet-B.
 ```
 python train.py \
     --model image2voxel \
